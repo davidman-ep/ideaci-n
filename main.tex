@@ -1,0 +1,73 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{listings}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage{cite}
+
+\begin{document}
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+    
+        \huge
+        \textbf{Ideación de proyecto}
+    
+        \vspace{0.5cm}
+        \large
+        videojuego PONG
+        \vspace{1.5cm}
+            
+        \textbf{Rolman David Echavarria Prince}
+            
+        \vfill
+            
+        \vspace{0.8cm}
+            
+        \Large
+        Departamento de Ingeniería Electrónica y Telecomunicaciones\\
+        Universidad de Antioquia\\
+        Medellín\\
+        Marzo de 2021
+            
+    \end{center}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+\section{Introducción.}\label{intro}
+Recordar el primer juego fundado por el nostálgico ATARI CORPORATION, llamado PONG, conocer su historia, como es el juego, su modo y familiarizarnos nuevamente ya que, muy probable lo hayamos jugado.
+
+\section{sección de contenido}\label{contenido}
+\subsection{Historia}
+    
+Nolan Bushnell y Ted Dabney, después del desarrollo en Computer Space, abandonaron Nutting Associates por un desacuerdo con el dueño por la segunda versión del juego; independizándose fundando su propia compañía de juegos. El 24 de mayo de 1971, Bushnell asistió a una presentación de la Magnavox Oddyssey de Ralph Baer y vio en funcionamiento el tenis de mesa de esta consola lo cual le inspiró para realizar su propia versión.
+Atari integro a Allam Alcorn, compañero de Ted Dabney e Ingeniero en Electrónica y diplomado en Ciencias de la Computación, pero sin experiencia en videojuegos, se le encomendó realizar un juego de tenis que mostrase un par de palas en pantalla (en el lado izquierdo y en el derecho), modos de juego de jugador contra jugador o jugador contra maquina y un marcador en pantalla; Bushnell tenía en mente vender el producto a General Electric.
+Alcorn iba a emplear la documentación de los diseños de Bushnell y Dabney del Computer Space, tras un análisis, concluyo la complejidad y era más viable empezar de cero junto con especificaciones de su jefe para mejorar la dinámica del juego, Alcorn mejoro el juego. 
+Al trimestre, Bushnell solicito a Alcorn unos nuevos requisitos, que el juego tuviera efectos de sonido y melodía, estas integraciones aumentaban el tamaño de la maquina y decidió aprovechar el generador de sincronismo del juego para generar los sonidos.
+Luego de que Alcorn creara un prototipo esté impresiono a Bushnell y Dabney, y la colocaron a prueba en un entorno real, hicieron la prueba en un bar y como resultado recaudaron unos 40 dólares diarios.  Bushnell decidió presentar el Pong en Chicago donde fue rechazado por Bally Manufacturing y Midway.
+Atari empezó a recibir pedidos de unas once unidades, luego 50 unidades, hasta 150 unidades; pidió financiación bancaria para aumentar la producción y cumplir la demanda. En 1973 empezó a exportar el producto fuera de EEUU, fabricando 2.500 unidades y año siguiente unas 8.000 unidades. Sin embargo, tras el éxito, Atari al no registrar el juego fue víctima de copias, televisores de la compañía japonesa Taito integraron el juego.
+
+
+\subsection{código}
+Anexando pseudocódigo y otras herramientas en su desarrollo.
+\subsection{Citación}
+Portal de donde se recupero la historia del videojuego PONG.\cite{hipertextual} .
+
+
+\section{Interfaz del juego}\label{imagenes}
+Ilustración (\ref{fig:pong}), clásica del juego
+\begin{figure}[h]
+\includegraphics[width=4cm]{imagenes/pong.JPG}
+\centering
+\caption{Interfaz del clásico PONG}
+\label{fig:pong}
+\end{figure}
+    
+    
+    
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}
